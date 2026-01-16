@@ -9,7 +9,7 @@ const Cart = () => {
   const { items, updateQuantity, removeFromCart, clearCart, getTotalPrice } = useCart();
   
   // Número do WhatsApp da loja (formato: 5591XXXXXXXXX - código do país + DDD + número)
-  const WHATSAPP_NUMBER = "5591999999999";
+  const WHATSAPP_NUMBER = "5591983927767";
 
   const handleFinishOrder = () => {
     if (items.length === 0) {
@@ -22,7 +22,7 @@ const Cart = () => {
     }
 
     // Construir mensagem do pedido
-    let message = "*Pedido Pesca Pará*\n\n";
+    let message = "*Pedido Farol do Mar Pescados*\n\n";
     message += "*Itens do Pedido:*\n";
     
     items.forEach((item, index) => {
